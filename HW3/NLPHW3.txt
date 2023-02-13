@@ -1,0 +1,9 @@
+For this assignment, you are going to fill in a notebook for a text classification model. You'll load AG News, a data set in torchtext. 
+
+For this model, I'd like you to initialize the embedding with the GloVe embeddings. Then, run the notebook with fine tuning and without. "Fine tuning" for a model means you initialize the model with some good parameters, and then you keep optimizing the parameters so you get the best task-specific performance. Specifically, can you:
+
+Modify the notebook so it works by filling in all the FILL_IN pieces.
+Optimize over EPOCHS as specified in the notebook.
+How do you do if you do not initialize with GloVe and use fine tuning so that you do optimize the embeddings?
+How do you do if you initialize with GloVe but turn off fine tuning so the embedding layer is static, it does not get optimized but you put in some good embeddings to start.
+How do you do if you initialize with GloVe and you turn on fine tuning?

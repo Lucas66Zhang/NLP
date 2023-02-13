@@ -1,0 +1,11 @@
+Hello all,
+
+For this assignment, I'll give you a vocabulary of about 5000 words and some preprocessed data so you know Nij, the co occurrence count for words i and j. For this data, Nij != Nji because of some errors in the data but by and large they are very close. The idea is to implement the last objective that connects Skip-Gram with a matrix factorization problem on the PMI matrix and show as we did before that yu get reasonable answers: words like "money" are close to "cash" and such. Please fill in the parts that are missing.
+
+This will be due 2/25.
+
+The file cooc.zip that you need is in the Lecture 3 folder.
+
+Best,
+
+Andrei
